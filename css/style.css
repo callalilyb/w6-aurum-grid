@@ -53,13 +53,16 @@ img {
 /* the images are still massive so i asked chatgpt for help. this is supposed to temporarily resize the images. */
 .hero-image,
 .about-image {
-    width: 450px;
-    max-width: 100%;
-    height: auto;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .collection-image {
-    width: 350px;
-    max-width: 100%;
-    height: auto;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
 }
+
+/* still not working. chatgpt is telling me to do this to specify both width and height. */
+
