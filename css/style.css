@@ -65,4 +65,62 @@ img {
 }
 
 /* still not working. chatgpt is telling me to do this to specify both width and height. */
+/* it doesn't look good, but the images are now at least small enough to see what i am working on. */
+
+/* instructions
+flexbox arranges the logo, navigation, bag in one horizontal row. */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 88px;
+}
+
+/* style wordmark Aurum logo */
+.logo {
+    font-family: "The Seasons", Georgia, serif;
+    font-size: 48px;
+    color: #733B27;
+    text-decoration: none;
+}
+
+/* instructions
+remove default list styling */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* instructions
+flexbox places navigation links next to each other, consistently spaced
+and then, style navigation links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-links a,
+.shopping-bag {
+    font-size: 20px;
+    color: #403E28;
+    text-decoration: none;
+}
+
+/* instructions
+provide visible keyboard focus and hover feedback */
+.nav-links a:hover,
+.shopping-bag:hover {
+    text-decoration: underline;
+}
+
+.site-header a:focus-visible {
+    outline: 2px solid #733B27;
+    outline-offset: 4px;
+}
+
+/* 'a' is a descendant selector: it tells css to find any a tags inside an element with the specified class, and then applies the styles to them. */
+
 
