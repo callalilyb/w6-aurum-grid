@@ -14,3 +14,30 @@ body {
 
 /* using hex codes for pre planned branding kit from mtm1537 */
 
+/* instructions
+grid organizes the overeall page into header, main, and footer regions */
+
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+}
+
+/* instructions
+assign each major page element to its named grid area */
+
+.site-header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.site-footer {
+    grid-area: footer;
+}
