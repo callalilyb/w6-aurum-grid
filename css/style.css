@@ -50,3 +50,16 @@ img {
     height: auto;
 }
 
+/* the images are still massive so i asked chatgpt for help. this is supposed to temporarily resize the images. */
+.hero-image,
+.about-image {
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+}
+
+.collection-image {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+}
