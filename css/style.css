@@ -1,0 +1,16 @@
+/* instructions
+reset default browser spacing and include padding in element widths. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F2EBDC;
+    color: #403E28;
+    font-family: "Inter", sans-serif;
+}
+
+/* using hex codes for pre planned branding kit from mtm1537 */
+
