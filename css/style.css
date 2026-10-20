@@ -41,3 +41,12 @@ main {
 .site-footer {
     grid-area: footer;
 }
+
+/* checked live site and images are way too big! need to fix this asap.  */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
