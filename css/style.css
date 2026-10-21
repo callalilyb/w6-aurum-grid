@@ -227,3 +227,11 @@ style the about heading */
     height: 550px;
     object-fit: cover;
 }
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 48px;
+    padding: 80px 88px;
+}
