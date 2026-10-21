@@ -290,3 +290,22 @@ footer-contact a:hover {
 /* the footer is now divided into four fractions
 branding logo gets 2/4 and contact and visit each get 1/4 */
 
+/* instructions
+add an explicit grid-column span */
+.site-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px
+}
+/* this organizes the footer content and full-width copyright into rows */
+
+.footer-content {
+    grid-column: 1 / -1;
+}
+
+.footer-copyright {
+    grid-column: 1 / -1;
+}
+
+/* 1 / -1 tells an element to start at the first grid line and end at the last grid line. */
+
