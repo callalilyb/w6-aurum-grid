@@ -27,6 +27,12 @@ body {
     min-height: 100vh;
 }
 
+main {
+    width: 100%;
+    min-width: 0;
+}
+/* i'm using chatgpt to try and figure out why my columns aren't working and the cards are stacked still. */
+
 /* instructions
 assign each major page element to its named grid area */
 
