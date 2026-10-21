@@ -286,3 +286,7 @@ footer-contact a:hover {
 .footer-copyright {
     margin-top: 64px;
 }
+
+/* the footer is now divided into four fractions
+branding logo gets 2/4 and contact and visit each get 1/4 */
+
