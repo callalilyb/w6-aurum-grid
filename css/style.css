@@ -181,11 +181,12 @@ style the explore collections link as a button */
 
 .collection-gallery {
     display: grid;
-    grid-template-columns: repeat (auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 32px;
     padding: 80px 88px;
 }
 /* this directs the browser to fit as many columns as possible with each being min 350px wide. this should move into fewer columns automatically on smaller screens. */
+/* ran through chatgpt to see why the columns weren't working. it pointed out a typo with parentheses. */
 
 .collection-card {
     min-width: 0;
