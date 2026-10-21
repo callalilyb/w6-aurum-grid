@@ -236,3 +236,53 @@ style the about heading */
     gap: 48px;
     padding: 80px 88px;
 }
+
+/* instructions
+formatting footer */
+
+.site-footer {
+    background-color: #403E28;
+    color: #F2EBDC;
+    padding: 64px 88px 24px;
+}
+
+/* arrange the footer into three columns */
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+}
+
+.footer-logo {
+    font-family:"The Seasons", Georgia, serif;
+    font-size: 48px;
+    margin: 0;
+}
+
+/* applying same styling to footer text and links */
+.footer-contact p,
+.footer-visit p,
+.footer-copyright p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer-contact a {
+    color: #F2EBDC;
+    text-decoration: none;
+}
+
+footer-contact a:hover {
+    text-decoration-color: #733B27;
+}
+
+.footer-contact a:focus-visible {
+    outline: 2px solid #F2EBDC;
+    outline-offset: 4px;
+
+}
+
+.footer-copyright {
+    margin-top: 64px;
+}
