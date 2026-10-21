@@ -143,7 +143,7 @@ make hero image fill its grid column */
 
 /* instructions
 style hero heading */
-.her-content h1 {
+.hero-content h1 {
     font-size: 48px;
     font-weight: 200;
     line-height: 1.2;
@@ -152,7 +152,7 @@ style hero heading */
 /* instructions
 style hero description */
 .hero-content p {
-    font-soze: 30px;
+    font-size: 30px;
     line-height: 1.4;
 }
 
@@ -168,7 +168,7 @@ style the explore collections link as a button */
 }
 
 .hero-button:hover {
-    background-color: #403E28
+    background-color: #403E28;
 }
 
 .hero-button:focus-visible {
