@@ -43,6 +43,7 @@ assign each major page element to its named grid area */
 
 main {
     grid-area: main;
+    main-width: 0;
 }
 
 .site-footer {
@@ -99,13 +100,14 @@ flexbox places navigation links next to each other, consistently spaced
 and then, style navigation links */
 .nav-links {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 32px;
+    gap: 12px 20px;
 }
 
 .nav-links a,
 .shopping-bag {
-    font-size: 20px;
+    font-size: 16px;
     color: #403E28;
     text-decoration: none;
 }
