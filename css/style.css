@@ -194,7 +194,7 @@ style the explore collections link as a button */
 
 .collection-gallery {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 32px;
     padding: 40px 24px;
 }
@@ -227,10 +227,11 @@ style the explore collections link as a button */
 }
 
 .collection-card h2 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 1.3;
     margin: 0;
+    overflow-wrap: break-word;
 }
 
 /* finally got the three cards into columns and they are also responsive to window width. */
@@ -321,7 +322,7 @@ branding logo gets 2/4 and contact and visit each get 1/4 */
 add an explicit grid-column span */
 .site-footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 32px
 }
 /* this organizes the footer content and full-width copyright into rows */
@@ -350,7 +351,7 @@ these are temporary values, to be adjusted after testing */
     }
 }
 
-@media (min-width: 100px) {
+@media (min-width: 1100px) {
     .hero,
     .about {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -383,4 +384,11 @@ these are temporary values, to be adjusted after testing */
         grid-template-columns: 2fr 1fr 1fr;
     }
 
+}
+
     /* had to use chatgpt to troubleshoot why my desktop design wasn't looking right after making the mobile-first edits. */
+
+    /* ====checking 1, 2, 3 column gallery requirement====
+    375px: 1 collection card per row?
+    800px: 2 collection cards per row?
+    1440px: 3 collection cards per row? */ 
