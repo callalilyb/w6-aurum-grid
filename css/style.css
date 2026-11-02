@@ -246,8 +246,8 @@ style the about heading */
 }
 
 .about-content p {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .about-image {
@@ -370,6 +370,10 @@ these are temporary values, to be adjusted after testing */
         object-fit: cover;
     }
 
+    .about-content p{
+        font-size: 30px;
+        line-height: 1.4;
+    }
     .collection-gallery {
         grid-template-columns: repeat(3, minmax(0, 1fr));
         padding: 80px 88px;
