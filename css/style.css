@@ -145,10 +145,12 @@ make hero image fill its grid column */
 /* instructions
 style hero heading */
 .hero-content h1 {
-    font-size: 48px;
+    font-size: clamp(28px, 5vw, 48px);
     font-weight: 200;
     line-height: 1.2;
 }
+
+/* clamp requirement for week 7 added to hero content rule */
 
 /* instructions
 style hero description */
