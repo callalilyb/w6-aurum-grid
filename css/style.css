@@ -128,10 +128,10 @@ provide visible keyboard focus and hover feedback */
 grid creates two columns for hero image and text */
 .hero {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
-    gap: 48px;
-    padding: 40px 88px 80px;
+    gap: 32px;
+    padding: 40px 24px;
 }
 
 /* instructions
@@ -184,7 +184,7 @@ style the explore collections link as a button */
     display: grid;
     grid-template-columns: 1fr;
     gap: 32px;
-    padding: 40px 24 px;
+    padding: 40px 24px;
 }
 /* this directs the browser to fit as many columns as possible with each being min 350px wide. this should move into fewer columns automatically on smaller screens. */
 /* ran through chatgpt to see why the columns weren't working. it pointed out a typo with parentheses. */
