@@ -33,6 +33,7 @@ assign each major page element to its named grid area */
 
 .site-header {
     display: flex;
+    grid-area: header;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -76,12 +77,6 @@ img {
 /* instructions
 flexbox arranges the logo, navigation, bag in one horizontal row. */
 
-.site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 88px;
-}
 
 /* style wordmark Aurum logo */
 .logo {
@@ -236,10 +231,10 @@ style the about heading */
 
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
-    gap: 48px;
-    padding: 80px 88px;
+    gap: 32px;
+    padding: 40px 24px;
 }
 
 /* instructions
