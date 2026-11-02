@@ -43,7 +43,7 @@ assign each major page element to its named grid area */
 
 main {
     grid-area: main;
-    main-width: 0;
+    min-width: 0;
 }
 
 .site-footer {
