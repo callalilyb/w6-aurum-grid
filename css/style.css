@@ -309,3 +309,6 @@ add an explicit grid-column span */
 
 /* 1 / -1 tells an element to start at the first grid line and end at the last grid line. */
 
+/* Confirmed in DevTools: footer grid column span. Dev tools shows that the content spans across both columns. */
+
+/* w3c css checker. no errors found! october. 20. */
