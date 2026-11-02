@@ -247,13 +247,13 @@ formatting footer */
 .site-footer {
     background-color: #403E28;
     color: #F2EBDC;
-    padding: 64px 88px 24px;
+    padding: 40px 24px 24px;
 }
 
 /* arrange the footer into three columns */
 .footer-content {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 32px;
     align-items: start;
 }
